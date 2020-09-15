@@ -1,0 +1,312 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  display: block;
+  padding-right: 0.6em;
+  font-size: 25px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #424242;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+header, footer, section, div, nav {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  display: list-item;
+}
+
+main{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.styled-hr{
+  height: 4px;
+  color: #639af2;
+  background: #639af2;
+  font-size: 0;
+  border: 0;
+}
+
+.contact-entry-hide{
+  display: none;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  line-height: 29px;
+}
+
+.h-item{
+  width: 180px;
+  margin: -2em 0 0 -1em;
+  padding: 5px 3%;
+  background-color: #639af2;
+  box-shadow: 1px 3px 3px #aaa;
+}
+
+.title-content, a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    font-size: 17px;
+}
+
+.education-title{
+    color: #052a66;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    font-size: 17px;
+}
+
+.click-me{
+  color: #052a66;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #332722;
+  line-height: 23px;
+}
+
+em{
+  font-size: 15px;
+}
+
+.date-text {
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 20px;
+    float: right;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 20px;
+
+  float: left;
+}
+
+
+/** header **/
+.header {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.26);
+  min-height: 56px;
+  transition: min-height 0.3s;
+}
+
+.header-inner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-name {
+  font-weight: 300;
+  margin: 0.2em 2em 0.2em 1.7em;
+  font-size: 6em;
+  display: inline-block;
+  color: #003b6b;
+}
+
+.header-img {
+  height: 120px;
+  margin: 0.5em 0.5em 0.5em 10em;
+  vertical-align: top;
+  margin-top: 12px;
+}
+
+#workExperience, #projects{
+  margin: 15px 0;
+}
+
+#education{
+  margin: 15px 0 20px 0;
+}
+
+.skill-entry, .work-entry, .project-entry, .education-entry {
+  padding: 3% 5%;
+}
+
+.onlineCourses-entry {
+  padding: 0px 5% 3% 5%;
+}
+/** technical skills **/
+#tech-skills{
+  order: 0;
+  width: 74.1%;
+}
+
+.skill-item{
+  font-size: 14px;
+  color: #333;
+  margin: 1em;
+}
+
+.tech-skill{
+  font-size: 15px;
+  color: #332722;
+}
+
+.skill-title{
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/** contact-detail **/
+#contacts {
+  order: 1;
+  width: 25.9%;
+  background-color: #d1c7c2;
+  height: 240px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.26);
+}
+
+#contact-h{
+  box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  padding: 5px 10%;
+  background-color: #634e44;
+}
+
+.contact-entry{
+  box-shadow: -4px 4px 6px rgba(0, 0, 0, 0.26);
+  width: 100%;
+  background-color: #d1c7c2;
+  padding: 7px 5px;
+}
+
+.list-item{
+  padding: 10px 15px;
+  display: flex;
+}
+
+.list-content{
+  font-size: 14px;
+  color: #4c2c23;
+}
+
+#education{
+  order: 2;
+  width: 100%;
+}
+
+.award-item{
+  font-weight: bold;
+  line-height: 18px;
+  font-size: 13px;
+}
+
+.score{
+  padding-top: 20px;
+}
+
+.score-gpa{
+  font-size: 15px;
+  color: black;
+}
+
+#workExperience{
+  order: 3;
+  width: 100%;
+  padding-bottom: 10px;
+  clear: both;
+}
+
+#projects{
+  order: 3;
+  width: 100%;
+}
+
+.projectPic, .activityPic{
+    padding: 10px;
+    width: 200px;
+    margin: 10px;
+}
+
+#activity{
+  order: 4;
+  width: 100%;
+}
+
+.activity-entry{
+  padding: 2% 5% 2% 5%;
+}
+
+#mapDiv {
+  order: 5;
+  height: 600px;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 2% 5%;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.26);
+
+}
+
+footer {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #E0E0E0;
+
+}
+
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1px;
+}

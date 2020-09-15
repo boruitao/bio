@@ -1,0 +1,122 @@
+.header-menu {
+  display: none;
+}
+
+@media only screen and (min-width: 900px){
+  main, .header-inner, .nav, .content {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header, main, .content, footer {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  #contacts{
+    box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.10);
+  }
+}
+
+@media only screen and (max-width: 860px){
+  .header-img {
+    height: 100px;
+    margin-left: 8%;
+  }
+  .header-name {
+    margin-right: 10%;
+  }
+  #tech-skills{
+    width: 66%;
+  }
+  #contacts{
+    width: 34%;
+    height: 240px;
+    box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.10);
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .header-img {
+    height: 80px;
+    margin-left: 10%;
+  }
+  .header-name {
+    margin-right: 10%;
+    margin-left: 8%;
+  }
+  #tech-skills{
+    width: 60%;
+  }
+  #contacts{
+    width: 40%;
+    box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.10);
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .header-img {
+    display: none;
+  }
+  .header-name {
+    margin-left: 10%;
+  }
+  #tech-skills{
+    width: 60%;
+  }
+  #contacts{
+    width: 40%;
+    box-shadow: -3px 3px 4px rgba(0, 0, 0, 0.10);
+  }
+}
+
+@media only screen and (max-width: 560px){
+  .header-img {
+    display: none;
+  }
+  .header-name {
+    margin: 0.3em 1em;
+    font-size: 4em;
+  }
+  #tech-skills{
+    width: 100%;
+  }
+  #contacts{
+    display: none;
+  }
+  .contact-entry-hide{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.10);
+    display: block;
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    position: absolute;
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    transition: transform 0.3s ease;
+  }
+  .contact-entry-hide.open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  .list-item-hide {
+    display: list-item;
+    border-bottom: 1px solid #E0E0E0;
+
+    text-align: left;
+    padding: 10px 0px 10px 13px;
+  }
+  .header-menu {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding: 1em;
+  }
+  .header-menu svg {
+    width: 32px;
+    fill: #E0E0E0;
+  }
+}
